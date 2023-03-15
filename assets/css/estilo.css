@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+body{
+    background: #f0f2f5;
+}
+.facebook{
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 100px auto;
+    padding: 0 26px;
+}
+.logoFacebook{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 350px;
+}
+.logoTexto1{
+    width: 750px;
+    padding-right: 76px;
+}
+.logoTexto1 p{
+    font-size: 25px;
+}
+form{
+    background-color: #fcfdff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 /10%);
+    text-align: center;
+}
+.formulario input {
+    display: block;
+    width: 330px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 6px;
+    font-size: 13px;
+}
+.inciar{
+    display: block;
+    border: 1px solid #365899;
+    margin: 7px;
+    padding: 17px;
+    width: 330px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #166fe5;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.olvidar{
+    margin: 10px;
+    color: #064bd4;
+}
+hr{
+    margin: 16px;
+    border: 1px solid #ddd;
+}
+.nuevaCuenta{
+    display: block;
+    width: 200px;
+    margin: auto;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.formulario p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.crea{
+    color: #000000;
+    font-weight: bold;
+}
+@media screen and (max-width: 900px){
+    .facebook{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .logoTexto1{
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        padding: 0;
+    }
+    .logoTexto1{
+        font-size: 20px;
+    }
+    .formulario{
+        margin: auto;
+        padding: auto;
+        width: 360px    ;
+    }
+    form{
+        margin-top: 50px;
+    }
+    a{
+        align-items: center;
+        margin: 0 auto;
+    }
+}
