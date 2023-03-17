@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     max-width: 980px;
-    margin: 100px auto;
+    margin: 170px auto;
     padding: 0 26px;
 }
 .logoFacebook{
@@ -119,3 +119,36 @@ hr{
         margin: 0 auto;
     }
 }
+footer {
+    background-color: #fff;
+}
+.parteFinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.idiomas{
+    padding-top: 20px;
+    color: #737373;
+    width: 980px;
+}
+.idiomas a{
+    color: #737373;
+    margin-right: 15px;
+    font-size: 13.5px;
+}
+.botonMas{
+    margin-left: 10px;
+    width: 30px;
+}
+.lineaFooter{
+    border: 0.2px solid #ddd;
+    margin-bottom: 10px;
+}
+.meta{
+    font-size: 12px;
+    color: #737373;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
